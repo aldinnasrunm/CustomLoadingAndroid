@@ -20,5 +20,8 @@ public class LoadingDialog {
         dialog = builder.create();
         dialog.show();
     }
+    void stopLoadingDialog(){
+        dialog.dismiss();
+    }
 
 }
